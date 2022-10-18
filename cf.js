@@ -67,7 +67,7 @@ class Cf {
 		} else if (action == 'off'){
 
 		    const options = {
-		        url: apiCloudfare.replace("{zoneID}", this.zoneID)+'/'+rulerID,
+		        url: apiCloudfare.replace("{zoneID}", this.zoneID)+'/'+this.rulerID,
 		        json: true,
 		        headers: {
 		            "X-Auth-Email": this.mail,
